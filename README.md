@@ -1,2 +1,28 @@
-# README
-DVD RENTAL ANALYSIS
+# Analyzing DVD-RENTAL data using PostgreSQL
+
+The database DvdRental has 15 tables. Below are the different tables and a brief description of them.
+
+actor — contains actors data including first name and last name.
+film — contains films data such as title, release year, length, rating, etc.
+film_actor — contains the relationships between films and actors.
+category — contains film’s categories data.
+film_category — containing the relationships between films and categories.
+store — contains the store data including manager staff and address.
+inventory — stores inventory data.
+rental — stores rental data.
+payment — stores customer’s payments.
+staff — stores staff data.
+customer — stores customer’s data.
+address — stores address data for staff and customers
+city — stores the city names.
+country — stores the country names.
+
+# Objective & Goals
+
+1. What are the top and least rented (in-demand) genres and what are their total sales?
+2. How many distinct users have rented each genre?
+3. What is the average rental rate for each genre?
+4. How many rented films were returned late, early, and on time?
+5. In which countries does Rent A Film have a presence and what is the customer base in each country? What are the total sales in each country?
+6. Who are the top 5 customers per total sales and can we get their details just in case Rent A Film wants to reward them?
+7. What are the Top 5 most rented films?
