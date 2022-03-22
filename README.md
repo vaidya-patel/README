@@ -2,20 +2,21 @@
 
 The database DvdRental has 15 tables. Below are the different tables and a brief description of them.
 
-actor — contains actors data including first name and last name.
-film — contains films data such as title, release year, length, rating, etc.
-film_actor — contains the relationships between films and actors.
-category — contains film’s categories data.
-film_category — containing the relationships between films and categories.
-store — contains the store data including manager staff and address.
-inventory — stores inventory data.
-rental — stores rental data.
-payment — stores customer’s payments.
-staff — stores staff data.
-customer — stores customer’s data.
-address — stores address data for staff and customers
-city — stores the city names.
-country — stores the country names.
+1. actor — contains actor id, including their first and last name.
+2. film — contains data such as film_id, title, rental rate, release year, length, rating, etc.
+3. film_actor — contains film_id and actor_id.
+4. category — contains film’s categories data.
+5. film_category — containing the relationships between films and categories.
+6. store — contains the store data including manager staff and address.
+7. inventory — stores inventory data.
+8. rental — stores rental data.
+9. payment — stores customer’s payments.
+10. staff — stores staff data.
+11. customer — stores customer’s data.
+12. address — stores address data for staff and customers
+13. city — stores the city names.
+14. country — stores the country_id, and country names.
+15. Store - stores the store id, manager_staff_id, address_id
 
 # Objective & Goals
 
